@@ -1,27 +1,46 @@
 body {
-  background: #000;
-  color: #f5c542;
-  font-family: Arial;
   margin: 0;
   padding: 20px;
+  background: #000;
+  color: #f5c542;
+  font-family: Arial, sans-serif;
 }
 
 header {
   text-align: center;
 }
 
+.logo {
+  width: 90px;
+  margin-bottom: 10px;
+}
+
 button {
   background: #f5c542;
   color: #000;
   border: none;
-  padding: 10px 20px;
+  padding: 10px 25px;
   border-radius: 20px;
-  cursor: pointer;
+  font-size: 15px;
   font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+.dashboard {
+  margin-top: 30px;
 }
 
 canvas {
-  margin-top: 30px;
   width: 100%;
   height: 220px;
+}
+
+#balance {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 18px;
 }
