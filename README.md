@@ -1,6 +1,6 @@
 # Aureum Wallet
 
-Telegram Web Wallet UI  
-Dark × Gold Theme  
-NFT Gallery  
-Runs on GitHub Pages
+Real TON Wallet + NFT Marketplace  
+Telegram Mini App  
+Dashboard with Charts  
+Testnet Ready
