@@ -10,22 +10,28 @@
 <script src="https://telegram.org/js/telegram-web-app.js"></script>
 <script src="https://unpkg.com/@tonconnect/ui@latest/dist/tonconnect-ui.min.js"></script>
 </head>
-
 <body>
 
-<header>
+<div class="container">
   <img src="assets/logo.png" class="logo">
   <h1>Aureum Wallet</h1>
-  <button id="connect">Connect Wallet</button>
-  <p id="address"></p>
-</header>
 
-<section class="dashboard">
-  <canvas id="portfolioChart"></canvas>
-  <div id="balance">Wallet not connected</div>
-</section>
+  <button id="connect">Connect TON Wallet</button>
 
-<script src="charts.js"></script>
+  <div class="wallet-info">
+    <p><strong>Address:</strong> <span id="address">—</span></p>
+    <p><strong>Balance:</strong> <span id="balance">—</span></p>
+  </div>
+
+  <div class="send-section">
+    <input id="sendAddress" placeholder="Recipient address">
+    <input id="sendAmount" placeholder="Amount TON">
+    <button id="sendBtn">Send TON</button>
+  </div>
+
+  <div id="txStatus"></div>
+</div>
+
 <script src="app.js"></script>
 </body>
 </html>
