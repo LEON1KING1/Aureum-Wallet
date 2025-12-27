@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Main Wallet",
+    "address": "0xAUREUM123456",
+    "balance": "1.8 ETH"
+  },
+  {
+    "name": "Savings Wallet",
+    "address": "0xGOLD987654",
+    "balance": "0.65 ETH"
+  }
+]
